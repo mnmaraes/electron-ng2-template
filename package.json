@@ -1,10 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-ng2-template",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "main.js",
+  "main": "compiled/main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron compiled/main.js",
+    "build": "tsc",
+    "postinstall": "typings install"
   },
   "repository": {
     "type": "git",
@@ -12,17 +14,26 @@
   },
   "keywords": [
     "Electron",
+    "angular2"
     "quick",
-    "start",
-    "tutorial"
+    "start"
   ],
-  "author": "GitHub",
+  "author": "mnmaraes",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/electron/electron-quick-start/issues"
   },
   "homepage": "https://github.com/electron/electron-quick-start#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.1.1"
+    "electron-prebuilt": "1.1.1",
+    "typescript": "1.8.10",
+    "typings": "1.0.4"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.17",
+    "es6-shim": "0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "0.6.12"
   }
 }
