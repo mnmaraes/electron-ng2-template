@@ -10,20 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+git@github.com:mnmaraes/electron-ng2-template.git"
   },
   "keywords": [
     "Electron",
-    "angular2"
+    "angular2",
     "quick",
     "start"
   ],
   "author": "mnmaraes",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/mnmaraes/electron-ng2-template/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/mnmaraes/electron-ng2-template#readme",
   "devDependencies": {
     "electron-prebuilt": "1.1.1",
     "typescript": "1.8.10",

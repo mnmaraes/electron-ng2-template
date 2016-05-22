@@ -20,9 +20,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone git@github.com:mnmaraes/electron-quick-start.git
+git clone git@github.com:mnmaraes/electron-ng2-template.git
 # Go into the repository
-cd electron-quick-start
+cd electron-ng2-template
 # Install dependencies and run the app
 npm install && npm run build && npm start
 ```
