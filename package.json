@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/mnmaraes/electron-ng2-template#readme",
   "devDependencies": {
-    "electron-connect": "^0.4.2",
-    "electron-prebuilt": "1.1.1",
-    "gulp": "^3.9.1",
+    "electron-connect": "0.4.2",
+    "electron-prebuilt": "1.2.0",
+    "gulp": "3.9.1",
     "supervisor": "0.10.0",
     "typescript": "1.8.10",
     "typings": "1.0.4"
