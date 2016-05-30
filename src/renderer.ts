@@ -6,7 +6,6 @@ import { bootstrap } from '@angular/platform-browser-dynamic'
 import { provideStore } from '@ngrx/store'
 import { runEffects } from '@ngrx/effects'
 
-import { NoteComponent }  from "./components/note.component"
 import { Counter, counterReducer } from "./components/counter"
 
 import { ElectronSaverEffect, STATE_PROP } from './helpers/hot-reloader'
