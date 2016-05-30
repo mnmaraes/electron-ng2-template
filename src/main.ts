@@ -2,9 +2,12 @@ import { app, BrowserWindow } from 'electron'
 
 import * as Electron from 'electron'
 
+var client: any = require("electron-connect").client;
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow: Electron.BrowserWindow
+global['saved_state'] = {}
 
 const createWindow = () => {
   // Create the browser window.
@@ -20,6 +23,8 @@ const createWindow = () => {
     // when you should delete the corresponding element.
     mainWindow = null
   })
+
+  client.create(mainWindow)
 }
 
 // This method will be called when Electron has finished

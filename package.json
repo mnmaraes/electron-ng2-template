@@ -4,6 +4,7 @@
   "description": "A minimal Electron application",
   "main": "compiled/main.js",
   "scripts": {
+    "dev": "supervisor -x electron compiled/main.js",
     "start": "electron compiled/main.js",
     "build": "tsc",
     "postinstall": "typings install"
@@ -25,12 +26,23 @@
   },
   "homepage": "https://github.com/mnmaraes/electron-ng2-template#readme",
   "devDependencies": {
+    "electron-connect": "^0.4.2",
     "electron-prebuilt": "1.1.1",
+    "gulp": "^3.9.1",
+    "supervisor": "0.10.0",
     "typescript": "1.8.10",
     "typings": "1.0.4"
   },
   "dependencies": {
-    "angular2": "2.0.0-beta.17",
+    "@angular/common": "2.0.0-rc.1",
+    "@angular/compiler": "2.0.0-rc.1",
+    "@angular/core": "2.0.0-rc.1",
+    "@angular/platform-browser": "2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.1",
+    "@ngrx/core": "1.0.0",
+    "@ngrx/effects": "1.0.1",
+    "@ngrx/store": "2.0.0",
+    "electron-json-storage": "^2.0.0",
     "es6-shim": "0.35.0",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.6",
